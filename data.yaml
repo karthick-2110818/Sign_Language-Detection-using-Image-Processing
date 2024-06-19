@@ -1,0 +1,13 @@
+train: C:/Users/karth/Desktop/anprsys/ultralytics/dataset/train/images
+val: C:/Users/karth/Desktop/anprsys/ultralytics/dataset/valid/images
+test: C:/Users/karth/Desktop/anprsys/ultralytics/dataset/test/images
+
+nc: 12
+names: ['Danger', 'Hello', 'Help', 'Home', 'I', 'No', 'Okay', 'Please', 'Thanks', 'Want', 'Water', 'Yes']
+
+roboflow:
+  workspace: marian-ztsn4
+  project: sign-language-detection-szadj
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/marian-ztsn4/sign-language-detection-szadj/dataset/3
